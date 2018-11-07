@@ -1,0 +1,87 @@
+/* Styles done by Jacob Taylor */
+
+body{
+	background-image: url(Assests/backgroundPattern.jpg);
+	background-repeat: repeat;
+}
+
+/*this was h1*/
+.classTypeHeader{
+	color: White;
+	text-alin: center;
+	font-family: "Impact", Charcoal, Sans-serif;
+	font-size: 4.5rem;
+}
+
+/*this was h2*/
+.classTypeSecondary{
+	color: Lightgray;
+	text-align: center;
+	font-family: "Impact", Charcoal, Sans-serif;
+	font-size: 2.375rem;
+}
+
+/*this was p*/
+.classFormatting1{
+	color: Gray;
+	text-alin: center;
+	font-family: "Arial", Arial, Sans-serif;
+	font-size: 3.0rem;
+}
+
+/*this was p2*/
+.classFormatting2{
+	color: White;
+	text-align: center;
+	font-family: "Impact", Charcoal, Sans-serif;
+	font-size: 1.875rem;
+}
+
+/*this was p3*/
+.classFormatting3{
+	color: Gray;
+	text-alin: center;
+	font-family: "Arial", Arial, Sans-serif;
+	font-size: 1.5rem;
+}
+
+.classTextColorWhi{
+	color: white;
+}
+
+/*combined all list ids into this*/
+#idFormatting-list{
+	color: #808080;
+	text-align: center;
+	font-family: "Arial", Arial, Sans-serif;
+	font-size: 1.5rem;
+	list-style-position: inside;
+}
+
+#idFormatting-nav{
+	font-size: 1.5rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+#idFormatting-form{
+	color: Gray;
+	text-alin: center;
+	font-family: "Arial", Arial, Sans-serif;
+}
+
+table, th, td{
+	font-family: "Arial", Arial, Sans-serif;
+	border-collapse: collapse;
+	border-color: black;
+	border: 0.125rem solid black;
+	font-size: 1.25rem;
+}
+
+tr:nth-child(even) {
+	background-color: Lightgray;
+}
+
+tr:nth-child(odd) {
+	background-color: white;
+}
